@@ -1,0 +1,76 @@
+/* navbar */
+
+.bgColor{
+    background-color: white;
+  }
+  
+  .bgColor .nav_links a{
+    color: rgb(63, 63, 63);
+  }
+  .bgColor .nav_links button{
+    color: black;
+  }
+  .bgColor .nav_links .btnconta{
+    color: white;
+  }
+  
+  
+  
+  nav{
+    transition: 200ms ease-in-out background-color;
+  }
+  .nav_links a:hover{
+    border-bottom: 2px solid white;
+  }
+  
+  .bgColor .nav_links a:hover{
+    color:#155fa8;
+    border-bottom: 2px solid #0d4f91;
+  }
+  
+  button{
+    border:none;
+  }
+
+  /* carrusel */
+
+  .carousel-wrap {
+    margin: 90px auto;
+    padding: 0 5%;
+    width: 80%;
+    position: relative;
+  }
+  
+  /* fix blank or flashing items on carousel */
+  .owl-carousel .item {
+    position: relative;
+    z-index: 100; 
+  }
+  
+  /* end fix */
+  .owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color:gray;
+  }
+  
+  .owl-nav i {
+    font-size: 52px;
+  }
+  
+  .owl-nav .owl-prev {
+    left: -30px;
+  }
+  
+  .owl-nav .owl-next {
+    right: -30px;
+  }
+  
+  .item{
+    display:flex;
+    align-items:center;
+    height: 180px;
+  }
+  
+  
